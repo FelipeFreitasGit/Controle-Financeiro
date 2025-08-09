@@ -46,3 +46,5 @@ pip-delete-this-directory.txt
 # Misc
 *.bak
 *.swp
+
+finance_data.json

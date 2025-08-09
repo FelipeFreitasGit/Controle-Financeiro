@@ -1,0 +1,366 @@
+[
+    {
+        "data": "2024-12-04",
+        "descricao": "Lavive Enxovais   07/10 (1/10)",
+        "valor": 98.88,
+        "parcela": "1/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-01-04",
+        "descricao": "Lavive Enxovais   07/10 (2/10)",
+        "valor": 98.88,
+        "parcela": "2/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-02-04",
+        "descricao": "Lavive Enxovais   07/10 (3/10)",
+        "valor": 98.88,
+        "parcela": "3/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-03-04",
+        "descricao": "Lavive Enxovais   07/10 (4/10)",
+        "valor": 98.88,
+        "parcela": "4/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-04-04",
+        "descricao": "Lavive Enxovais   07/10 (5/10)",
+        "valor": 98.88,
+        "parcela": "5/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-05-04",
+        "descricao": "Lavive Enxovais   07/10 (6/10)",
+        "valor": 98.88,
+        "parcela": "6/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-04",
+        "descricao": "Lavive Enxovais   07/10 (7/10)",
+        "valor": 98.88,
+        "parcela": "7/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-04",
+        "descricao": "Lavive Enxovais   07/10 (8/10)",
+        "valor": 98.88,
+        "parcela": "8/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-04",
+        "descricao": "Lavive Enxovais   07/10 (9/10)",
+        "valor": 98.88,
+        "parcela": "9/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-09-04",
+        "descricao": "Lavive Enxovais   07/10 (10/10)",
+        "valor": 98.88,
+        "parcela": "10/10",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-03-26",
+        "descricao": "Amazon Br         04/05 (1/5)",
+        "valor": 103.2,
+        "parcela": "1/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-04-26",
+        "descricao": "Amazon Br         04/05 (2/5)",
+        "valor": 103.2,
+        "parcela": "2/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-05-26",
+        "descricao": "Amazon Br         04/05 (3/5)",
+        "valor": 103.2,
+        "parcela": "3/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-26",
+        "descricao": "Amazon Br         04/05 (4/5)",
+        "valor": 103.2,
+        "parcela": "4/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-26",
+        "descricao": "Amazon Br         04/05 (5/5)",
+        "valor": 103.2,
+        "parcela": "5/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-04-13",
+        "descricao": "Gol Linhas A*aidme03/05 (1/5)",
+        "valor": 246.26,
+        "parcela": "1/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-05-13",
+        "descricao": "Gol Linhas A*aidme03/05 (2/5)",
+        "valor": 246.26,
+        "parcela": "2/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-13",
+        "descricao": "Gol Linhas A*aidme03/05 (3/5)",
+        "valor": 246.26,
+        "parcela": "3/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-13",
+        "descricao": "Gol Linhas A*aidme03/05 (4/5)",
+        "valor": 246.26,
+        "parcela": "4/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-13",
+        "descricao": "Gol Linhas A*aidme03/05 (5/5)",
+        "valor": 246.26,
+        "parcela": "5/5",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-04-15",
+        "descricao": "Consul            03/04 (1/4)",
+        "valor": 45.42,
+        "parcela": "1/4",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-05-15",
+        "descricao": "Consul            03/04 (2/4)",
+        "valor": 45.42,
+        "parcela": "2/4",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-15",
+        "descricao": "Consul            03/04 (3/4)",
+        "valor": 45.42,
+        "parcela": "3/4",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-15",
+        "descricao": "Consul            03/04 (4/4)",
+        "valor": 45.42,
+        "parcela": "4/4",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-05-14",
+        "descricao": "Amazon Br         02/02 (1/2)",
+        "valor": 67.95,
+        "parcela": "1/2",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-14",
+        "descricao": "Amazon Br         02/02 (2/2)",
+        "valor": 67.95,
+        "parcela": "2/2",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-02",
+        "descricao": "Riachuelo Lo*riach01/03 (1/3)",
+        "valor": 36.63,
+        "parcela": "1/3",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-02",
+        "descricao": "Riachuelo Lo*riach01/03 (2/3)",
+        "valor": 36.63,
+        "parcela": "2/3",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-02",
+        "descricao": "Riachuelo Lo*riach01/03 (3/3)",
+        "valor": 36.63,
+        "parcela": "3/3",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-13",
+        "descricao": "Ingleses Palace Ho01/06 (1/6)",
+        "valor": 51.25,
+        "parcela": "1/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-13",
+        "descricao": "Ingleses Palace Ho01/06 (2/6)",
+        "valor": 51.25,
+        "parcela": "2/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-13",
+        "descricao": "Ingleses Palace Ho01/06 (3/6)",
+        "valor": 51.25,
+        "parcela": "3/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-09-13",
+        "descricao": "Ingleses Palace Ho01/06 (4/6)",
+        "valor": 51.25,
+        "parcela": "4/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-10-13",
+        "descricao": "Ingleses Palace Ho01/06 (5/6)",
+        "valor": 51.25,
+        "parcela": "5/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-11-13",
+        "descricao": "Ingleses Palace Ho01/06 (6/6)",
+        "valor": 51.25,
+        "parcela": "6/6",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-06-13",
+        "descricao": "Ingleses Palace Ho01/12 (1/12)",
+        "valor": 70.0,
+        "parcela": "1/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-07-13",
+        "descricao": "Ingleses Palace Ho01/12 (2/12)",
+        "valor": 70.0,
+        "parcela": "2/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-13",
+        "descricao": "Ingleses Palace Ho01/12 (3/12)",
+        "valor": 70.0,
+        "parcela": "3/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-09-13",
+        "descricao": "Ingleses Palace Ho01/12 (4/12)",
+        "valor": 70.0,
+        "parcela": "4/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-10-13",
+        "descricao": "Ingleses Palace Ho01/12 (5/12)",
+        "valor": 70.0,
+        "parcela": "5/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-11-13",
+        "descricao": "Ingleses Palace Ho01/12 (6/12)",
+        "valor": 70.0,
+        "parcela": "6/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-12-13",
+        "descricao": "Ingleses Palace Ho01/12 (7/12)",
+        "valor": 70.0,
+        "parcela": "7/12",
+        "tipo": "Despesa",
+        "categoria": "Cartão de Crédito"
+    },
+    {
+        "data": "2025-08-01",
+        "descricao": "ddddddd",
+        "valor": 0.01,
+        "tipo": "Receita",
+        "categoria": "N/A"
+    },
+    {
+        "data": "2025-08-01",
+        "descricao": "ddddddddd",
+        "valor": 0.01,
+        "tipo": "Receita",
+        "categoria": "N/A"
+    },
+    {
+        "data": "2025-08-01",
+        "descricao": "dddddddd",
+        "valor": 0.01,
+        "tipo": "Despesa",
+        "categoria": "Variável"
+    },
+    {
+        "data": "2025-08-01",
+        "descricao": "fff",
+        "valor": 0.01,
+        "tipo": "Despesa",
+        "categoria": "Fixa"
+    }
+]

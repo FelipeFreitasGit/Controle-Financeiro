@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Temporary files
+*.tmp
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.flaskenv
+
+# Caches
+.pytest_cache/
+.tox/
+.mypy_cache/
+.coverage.*
+htmlcov/
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Editor de código
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.swp

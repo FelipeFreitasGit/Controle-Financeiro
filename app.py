@@ -216,7 +216,7 @@ with tab2:
                     st.success("Fatura do cartão de crédito carregada e parcelas distribuídas com sucesso!")
                     st.info("As transações do cartão de crédito aparecerão nos meses correspondentes.")
                     save_data_to_file(st.session_state.transactions)
-                    st.rerun()
+                    
             except Exception as e:
                 st.error(f"Erro ao ler o arquivo: {e}")
 
@@ -234,17 +234,34 @@ with tab2:
 
             if submit_button:
                 if description and value:
-                    mes_numero = meses_nomes.index(selected_month_name) + 1
-                    nova_data = date(selected_year, mes_numero, 1)
-                    new_transaction = {
-                        "data": str(nova_data),
-                        "descricao": description,
-                        "valor": float(value),
-                        "tipo": "Despesa",
-                        "categoria": expense_category
-                    }
-                    st.session_state.transactions.append(new_transaction)
-                    st.success("Despesa adicionada com sucesso!")
+                    mes_numero_inicial = meses_nomes.index(selected_month_name) + 1
+                    
+                    # --- NOVO TRECHO DE CÓDIGO CORRIGIDO ---
+                    if expense_category == "Fixa":
+                        for mes in range(mes_numero_inicial, 13):
+                            nova_data = date(selected_year, mes, 1)
+                            new_transaction = {
+                                "data": str(nova_data),
+                                "descricao": description,
+                                "valor": float(value),
+                                "tipo": "Despesa",
+                                "categoria": expense_category
+                            }
+                            st.session_state.transactions.append(new_transaction)
+                        st.success(f"Despesa fixa '{description}' adicionada para todos os meses a partir de {selected_month_name}!")
+                    else:
+                        nova_data = date(selected_year, mes_numero_inicial, 1)
+                        new_transaction = {
+                            "data": str(nova_data),
+                            "descricao": description,
+                            "valor": float(value),
+                            "tipo": "Despesa",
+                            "categoria": expense_category
+                        }
+                        st.session_state.transactions.append(new_transaction)
+                        st.success("Despesa adicionada com sucesso!")
+                    # --- FIM DO NOVO TRECHO DE CÓDIGO ---
+
                     save_data_to_file(st.session_state.transactions)
                     st.rerun()
 

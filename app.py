@@ -6,6 +6,7 @@ import io
 import re
 import json
 import os
+from dateutil.relativedelta import relativedelta
 
 # Nome do arquivo onde os dados serão salvos
 DATA_FILE = "finance_data.json"
@@ -182,6 +183,17 @@ with tab2:
                     if 'parcela' not in df_cc.columns:
                         df_cc['parcela'] = ''
                     
+                    # Converte a coluna 'data' para datetime
+                    df_cc['data'] = pd.to_datetime(df_cc['data'], dayfirst=True)
+                    
+                    def check_and_advance_date(dt):
+                        """Verifica se a data é o último dia do mês e avança para o próximo."""
+                        if dt.day == (dt + relativedelta(months=1, day=1) - relativedelta(days=1)).day:
+                            return dt + relativedelta(months=1, day=1)
+                        return dt
+                    
+                    df_cc['data'] = df_cc['data'].apply(check_and_advance_date)
+
                     # Filtra o DataFrame para manter apenas as colunas relevantes
                     expected_columns_list = ['data', 'descricao', 'valor', 'parcela']
                     # Garante que 'parcela' exista antes de filtrar
@@ -204,6 +216,7 @@ with tab2:
                     st.success("Fatura do cartão de crédito carregada e parcelas distribuídas com sucesso!")
                     st.info("As transações do cartão de crédito aparecerão nos meses correspondentes.")
                     save_data_to_file(st.session_state.transactions)
+                    st.rerun()
             except Exception as e:
                 st.error(f"Erro ao ler o arquivo: {e}")
 

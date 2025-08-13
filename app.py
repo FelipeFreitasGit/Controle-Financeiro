@@ -318,7 +318,7 @@ if st.session_state.transactions:
                         with cols[1]: st.write(row["descricao"])
                         with cols[2]: st.write(format_currency(row["valor"]))
                         with cols[3]: 
-                            if st.button("🗑️", key=f"del_receita_{index}"):
+                            if st.button("", key=f"del_receita_{index}", type="primary", icon=":material/delete:"):
                                 # A forma mais segura é reconstruir a lista sem o item
                                 st.session_state.transactions = [t for i, t in enumerate(st.session_state.transactions) if i != index]
                                 save_data_to_file(st.session_state.transactions)
@@ -343,7 +343,7 @@ if st.session_state.transactions:
                         with cols[1]: st.write(row["descricao"])
                         with cols[2]: st.write(format_currency(row["valor"]))
                         with cols[3]: 
-                            if st.button("🗑️", key=f"del_fixa_{index}"):
+                            if st.button("", key=f"del_fixa_{index}", type="primary", icon=":material/delete:"):
                                 st.session_state.transactions = [t for i, t in enumerate(st.session_state.transactions) if i != index]
                                 save_data_to_file(st.session_state.transactions)
                                 st.rerun()
@@ -373,7 +373,7 @@ if st.session_state.transactions:
                         with cols[1]: st.write(row["descricao"])
                         with cols[2]: st.write(format_currency(row["valor"]))
                         with cols[3]: 
-                            if st.button("🗑️", key=f"del_var_{index}"):
+                            if st.button("", key=f"del_var_{index}", type="primary", icon=":material/delete:"):
                                 st.session_state.transactions = [t for i, t in enumerate(st.session_state.transactions) if i != index]
                                 save_data_to_file(st.session_state.transactions)
                                 st.rerun()

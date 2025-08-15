@@ -47,4 +47,8 @@ pip-delete-this-directory.txt
 *.bak
 *.swp
 
-finance_data.json
+# Base de dados
+finance_data_v2.json
+
+# Lançamentos cartão de crédito
+credito.csv

@@ -162,12 +162,10 @@ with st.sidebar:
                     cat_index = st.session_state.categories.index("Cartão de Crédito") if "Cartão de Crédito" in st.session_state.categories else 0
                     category_for_csv = st.selectbox("Atribuir todas as despesas à categoria:", st.session_state.categories, index=cat_index)
                     
-                    # --- NOVO: Aviso sobre a substituição de dados ---
                     st.warning(f"Atenção: A importação irá **substituir** todas as transações existentes na categoria '{category_for_csv}'.")
 
                     if st.button("Processar e Importar Fatura", use_container_width=True):
                         
-                        # --- NOVO: Remove transações existentes da categoria selecionada ---
                         st.session_state.transactions = [
                             t for t in st.session_state.transactions 
                             if t.get('categoria') != category_for_csv
@@ -337,6 +335,26 @@ else:
             m_col1.metric("Saldo do Mês", format_currency(current_balance))
             m_col2.metric("Total de Receitas", format_currency(total_revenue))
             m_col3.metric("Total de Despesas", format_currency(total_expenses))
+            
+            # --- NOVO: Bloco para exibir o detalhamento de despesas recorrentes vs. variáveis ---
+            total_recurring_expenses = df_month[
+                (df_month["tipo"] == "Despesa") & 
+                (df_month["recorrente"].fillna(False) == True)
+            ]["valor"].sum()
+            total_variable_expenses = total_expenses - total_recurring_expenses
+            
+            m_col4, m_col5 = st.columns(2)
+            m_col4.metric(
+                label="Total Desp. Recorrentes",
+                value=format_currency(total_recurring_expenses),
+                help="Soma das despesas marcadas como 'recorrente/fixa'."
+            )
+            m_col5.metric(
+                label="Total Desp. Variáveis",
+                value=format_currency(total_variable_expenses),
+                help="Soma das despesas não recorrentes, incluindo a fatura do cartão."
+            )
+            # --- FIM DO NOVO BLOCO ---
             
             expenses_by_cat_month = df_month[df_month['tipo'] == 'Despesa'].groupby('categoria')['valor'].sum()
             if not expenses_by_cat_month.empty:
